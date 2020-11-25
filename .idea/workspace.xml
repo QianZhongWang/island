@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="711354f8-b014-40fb-af4b-6027f3277cac" name="默认的" comment="" />
+    <list default="true" id="711354f8-b014-40fb-af4b-6027f3277cac" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/validators/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/validators/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/db.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +38,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1kj1JlfAluTFkdIAsmsQuf07W6E" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,8 +55,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.19.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -34,6 +67,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -51,16 +85,60 @@
       <option name="presentableId" value="Default" />
       <updated>1606199116626</updated>
       <workItem from="1606199117701" duration="13233000" />
+      <workItem from="1606313180572" duration="1998000" />
+      <workItem from="1606315187146" duration="152000" />
+      <workItem from="1606315366501" duration="70000" />
+      <workItem from="1606315442452" duration="461000" />
+      <workItem from="1606315924711" duration="327000" />
+      <workItem from="1606316259591" duration="563000" />
+      <workItem from="1606316829732" duration="220000" />
+      <workItem from="1606317058370" duration="2355000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="723" y="349" key="#com.intellij.tools.ToolEditorDialog" timestamp="1606313283892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="349" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040/-1920.124.1920.1040@0.0.1920.1040" timestamp="1606313283892" />
     <state x="474" y="220" key="#检查" timestamp="1606201045990">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="474" y="220" key="#检查/0.25.1680.1025@0.25.1680.1025" timestamp="1606201045990" />
+    <state x="574" y="0" key="CommitChangelistDialog2" timestamp="1606316972708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="574" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.124.1920.1040@0.0.1920.1040" timestamp="1606316972708" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606317447509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.124.1920.1040@0.0.1920.1040" timestamp="1606317447509" />
+    <state x="182" y="66" width="1262" height="883" key="SettingsEditor" timestamp="1606319410196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="182" y="66" width="1262" height="883" key="SettingsEditor/0.0.1920.1040/-1920.124.1920.1040@0.0.1920.1040" timestamp="1606319410196" />
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1606317302194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.124.1920.1040@0.0.1920.1040" timestamp="1606317302194" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606316955483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.124.1920.1040@0.0.1920.1040" timestamp="1606316955483" />
   </component>
 </project>
