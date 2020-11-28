@@ -10,16 +10,16 @@ const { PositiveIntegerValidator } = require('../../validators/validator')
 /**
  * 测试获取路径的一些参数
  */
-router.post('/v1/:id/classic/latest', (ctx, next) => {
+router.post('/v1/:id/classic/latest', async (ctx, next) => {
   const path = ctx.params;
   const query = ctx.request.query;
   const headers = ctx.request.header;
   const body = ctx.request.body
 
   // 3.测试校验器,
-  const v = new PositiveIntegerValidator().validate(ctx);
+  const v = await new PositiveIntegerValidator().validate(ctx);
 
-  ctx.body = 'sucess';
+  ctx.body = 'success';
 
 
   //2.测试报错信息

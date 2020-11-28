@@ -1,22 +1,25 @@
-
 /**
  * 全局拦截异常报错信息
  * @param ctx
  * @param next
  * @returns {Promise<void>}
  */
-const { HttpException } = require('../core/http-exception')
+const {HttpException} = require('../core/http-exception')
 const catchError = async (ctx, next) => {
   try {
     await next();
   } catch (error) {
+
+    const isHttpException = error instanceof HttpException;
+    const isDev = global.config.environment === "dev"
+
     //开发环境，和生产环境
-    if (global.config.environment === 'dev') {
+    if (isDev && !isHttpException) {
       throw error;
     }
 
     //已知异常
-    if (error instanceof HttpException) {
+    if (isHttpException) {
       ctx.body = {
         message: error.message,
         errorCode: error.errorCode,
